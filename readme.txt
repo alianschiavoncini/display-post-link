@@ -27,9 +27,7 @@ Example: [display-post-link id="privacy-policy" custom_title="Check it out our P
 1. Upload the entire `display-post-link` folder to the `/wp-content/plugins/` directory.
 1. Activate the plugin through the **Plugins** screen (**Plugins > Installed Plugins**).
 
-== Screenshots ==
-
 == Upgrade Notice ==
 
-= 0.1 (2022-08-01) =
-* Initial version on WP repository
+= 1.0.0 (2022-07-26) =
+* Initial version
