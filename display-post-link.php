@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Display Post Link
  * Plugin URI: https://wordpress.org/plugins/display-post-link
- * Description: Displays the post link via shortcode.
+ * Description: Display WordPress post/page links (homepage, blog, privacy, etc.) via shortcode in post/page content or widget area.
  * Version: 1.0.1
  * Requires at least: 5.2
  * Requires PHP: 7.2
@@ -71,6 +71,12 @@ function display_post_link($attr) {
 					$args['title'] = get_the_title( wc_get_page_id( 'checkout' ) );
 				}
 				break;
+
+			case 'woocommerce-refund-returns' :
+				if ( class_exists( 'woocommerce' ) && ( wc_get_page_id( 'refund_returns' ) > 0) ) {
+					$args['url'] = get_permalink( wc_get_page_id( 'refund_returns' ) );
+					$args['title'] = get_the_title( wc_get_page_id( 'refund_returns' ) );
+				}
 				break;
 
 			// WP Options
