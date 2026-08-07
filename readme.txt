@@ -1,10 +1,10 @@
 === Display Post Link ===
 Contributors: alian
 Tags: display link, show link, blog link, privacy policy link, WooCommerce pages link
-Requires at least: 3.0.1
-Tested up to: 6.6.1
-Stable tag:	1.0.2
-Requires PHP: 5.2.4
+Requires at least: 5.2
+Tested up to: 7.0
+Stable tag: 1.0.4
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,14 +46,26 @@ Compatible with WPML plugin.
 1. Upload the entire `display-post-link` folder to the `/wp-content/plugins/` directory.
 1. Activate the plugin through the **Plugins** screen (**Plugins > Installed Plugins**).
 
-== Upgrade Notice ==
-= 1.0.2 (2024-08-05) =
+== Wordefence vendor verification key ==
+gsphudo7by90lzwdlihyerqxbzj6jiln
+
+== Changelog ==
+= 1.0.4 =
+* Compatibility: tested with WordPress 7.0.
+* Changed: the readme now declares the same minimum requirements as the plugin header (WordPress 5.2, PHP 7.4). The previous values (WordPress 3.0.1, PHP 5.2.4) were never enforced, since WordPress reads the header.
+* Changed: added the DISPLAY_POST_LINK_VERSION constant.
+
+= 1.0.3 =
+* Added full compatibility with WordPress version 6.8.3
+* Added Wordefence vendor verification key
+
+= 1.0.2 =
 * Security and performance enhancements
 * Added full compatibility with WordPress version 6.6.1.
 
-= 1.0.1 (2022-07-26) =
+= 1.0.1 =
 * Added WooCommerce Return and Returns Policy page
 * Added plugin screenshots
 
-= 1.0.0 (2022-07-26) =
+= 1.0.0 =
 * Initial version

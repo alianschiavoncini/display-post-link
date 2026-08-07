@@ -3,7 +3,7 @@
  * Plugin Name: Display Post Link
  * Plugin URI: https://wordpress.org/plugins/display-post-link
  * Description: Display WordPress post/page links (homepage, blog, privacy, etc.) via shortcode in post/page content or widget area.
- * Version: 1.0.2
+ * Version: 1.0.4
  * Requires at least: 5.2
  * Requires PHP: 7.4
  * Author: Alian Schiavoncini
@@ -16,6 +16,8 @@
 if (!defined('ABSPATH')) {
 	exit;
 }
+
+define('DISPLAY_POST_LINK_VERSION', '1.0.4');
 
 // Main Display Post Link function
 function display_post_link($attr) {
