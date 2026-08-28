@@ -2,8 +2,8 @@
 Contributors: alian
 Tags: display link, show link, blog link, privacy policy link, WooCommerce pages link
 Requires at least: 5.2
-Tested up to: 7.0
-Stable tag: 1.0.4
+Tested up to: 7.1
+Stable tag: 1.0.5
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -50,6 +50,9 @@ Compatible with WPML plugin.
 gsphudo7by90lzwdlihyerqxbzj6jiln
 
 == Changelog ==
+= 1.0.5 =
+* Compatibility: tested with WordPress 7.1.
+
 = 1.0.4 =
 * Compatibility: tested with WordPress 7.0.
 * Changed: the readme now declares the same minimum requirements as the plugin header (WordPress 5.2, PHP 7.4). The previous values (WordPress 3.0.1, PHP 5.2.4) were never enforced, since WordPress reads the header.
